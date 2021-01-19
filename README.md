@@ -8,11 +8,6 @@ Project Title: Partial Homomorphic Encryption for Statistical Queries on Music S
 Timur Blair Gordon
 May 13, 2020
 
-Table of Contents:
-1.	Basic Information
-2.	Dataset
-3.	Software Information
-
 1. Basic Information:
 
 The software simulates interactions between a client and a cloud server. The first part of the code simulates these interactions without any encryption. The second part of the code simulates the same interactions in a symmetric encryption scheme, in order to check for encryption/decryption correction of the results of the queries. Alphabetical data is encrypted using AES encryption via the cryptography module in python (https://github.com/pyca/cryptography). Numerical data is encrypted using the PHE module in python (https://github.com/data61/python-paillier).
